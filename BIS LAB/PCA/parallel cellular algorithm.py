@@ -29,4 +29,5 @@ for it in range(iterations):
             population[i][swap_idx] = neighbor[swap_idx]
 
 best = min(population, key=fitness)
-print("\n✅ Best schedule found:", best, "with fitness =", fitness(best))
+print("\nBest schedule found:", best, "with fitness =", fitness(best))
+
